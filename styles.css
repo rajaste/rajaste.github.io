@@ -54,7 +54,7 @@ li a:hover {
 .alempi {
   background-color: #000;
   color: #FFFFFF;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 0px;
   font-family: "Ubuntu", sans-serif;
   text-align: right;
 }
