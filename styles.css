@@ -1,0 +1,60 @@
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background-color: #000;
+  font-family: "Ubuntu", sans-serif;
+}
+
+li {
+  text-align: center;
+  display: inline;
+  padding: 40px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a {
+  display: inline;
+  color: #F0FFFF;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #FFFFFF;
+  color: #000;
+}
+
+.active {
+  background-color: #000;
+  color: white;
+}
+
+.header {
+  width: 100%;
+}
+
+.otsikko {
+  padding: 10px 0px 0px 20px;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.runko {
+  padding: 0px 20px 20px 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+.alempi {
+  background-color: #000;
+  color: #FFFFFF;
+  padding: 20px 20px 20px 20px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: right;
+}
