@@ -42,11 +42,11 @@ li a:hover {
 .otsikko {
   padding: 10px 0px 0px 20px;
   font-family: "Ubuntu", sans-serif;
-  background-color: #FFFFFF;
+  background-color: inherit;
 }
 
 .runko {
-  padding: 0px 20px 20px 20px;
+  padding: 0px 20px 10px 20px;
   font-family: "Ubuntu", sans-serif;
   font-size: 20px;
 }
@@ -54,7 +54,23 @@ li a:hover {
 .alempi {
   background-color: #000;
   color: #FFFFFF;
-  padding: 20px 20px 20px 20px;
+  padding: 10px 20px 20px 20px;
   font-family: "Ubuntu", sans-serif;
   text-align: right;
+}
+
+.yhteystiedot {
+  background-color: #000;
+  color: #FFFFFF;
+  padding: 20px 20px 20px 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+a:link {
+  color: inherit;
+}
+
+a:visited {
+  color: #FFFFFF;
 }
