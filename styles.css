@@ -3,14 +3,15 @@ ul {
   text-align: center;
   margin: 0;
   padding: 20px;
-  background-color: #000;
+  background-color: #FFFFFF;
   font-family: "Ubuntu", sans-serif;
 }
 
 li {
   text-align: center;
   display: inline;
-  padding: 40px;
+  padding: 20px;
+  font-size: 18px;
 }
 
 li:last-child {
@@ -19,58 +20,154 @@ li:last-child {
 
 li a {
   display: inline;
-  color: #F0FFFF;
-  padding: 20px 16px;
+  color: #000;
+  padding: 20px;
   text-decoration: none;
   font-weight: bold;
 }
 
 li a:hover {
-  background-color: #FFFFFF;
-  color: #000;
-}
-
-.active {
-  background-color: #000;
-  color: white;
+  background-image: linear-gradient(
+    to top,
+    hsl(170, 13.04%, 54.9%) 0%,
+    hsl(169.97, 12.92%, 55.72%) 14.2%,
+    hsl(169.88, 12.61%, 57.95%) 26.3%,
+    hsl(169.76, 12.19%, 61.23%) 36.4%,
+    hsl(169.64, 11.74%, 65.2%) 44.9%,
+    hsl(169.53, 11.3%, 69.56%) 51.9%,
+    hsl(169.44, 10.9%, 74.08%) 57.8%,
+    hsl(169.36, 10.55%, 78.56%) 62.8%,
+    hsl(169.29, 10.24%, 82.88%) 67.1%,
+    hsl(169.24, 9.99%, 86.9%) 71%,
+    hsl(169.2, 9.77%, 90.54%) 74.7%,
+    hsl(169.16, 9.6%, 93.7%) 78.6%,
+    hsl(169.14, 9.47%, 96.32%) 82.8%,
+    hsl(169.12, 9.37%, 98.3%) 87.6%,
+    hsl(169.11, 9.31%, 99.56%) 93.2%,
+    hsl(0, 0%, 100%) 100%
+    );
+  color: #ffffff;
 }
 
 .header {
   width: 100%;
 }
 
-.otsikko {
-  padding: 10px 0px 0px 20px;
+.ylempi {
+  padding: 10px 10px 1px 20px;
   font-family: "Ubuntu", sans-serif;
-  background-color: inherit;
-}
-
-.runko {
-  padding: 0px 20px 10px 20px;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 20px;
+  font-style: normal;
+  color: #000;
+  background-image: linear-gradient(
+    to top,
+    hsl(170, 13.04%, 54.9%) 0%,
+    hsl(169.97, 12.92%, 55.72%) 14.2%,
+    hsl(169.88, 12.61%, 57.95%) 26.3%,
+    hsl(169.76, 12.19%, 61.23%) 36.4%,
+    hsl(169.64, 11.74%, 65.2%) 44.9%,
+    hsl(169.53, 11.3%, 69.56%) 51.9%,
+    hsl(169.44, 10.9%, 74.08%) 57.8%,
+    hsl(169.36, 10.55%, 78.56%) 62.8%,
+    hsl(169.29, 10.24%, 82.88%) 67.1%,
+    hsl(169.24, 9.99%, 86.9%) 71%,
+    hsl(169.2, 9.77%, 90.54%) 74.7%,
+    hsl(169.16, 9.6%, 93.7%) 78.6%,
+    hsl(169.14, 9.47%, 96.32%) 82.8%,
+    hsl(169.12, 9.37%, 98.3%) 87.6%,
+    hsl(169.11, 9.31%, 99.56%) 93.2%,
+    hsl(0, 0%, 100%) 100%
+    );
 }
 
 .alempi {
-  background-color: #000;
-  color: #FFFFFF;
-  padding: 10px 20px 20px 20px;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(170, 13.04%, 54.9%) 0%,
+    hsl(169.97, 12.92%, 55.72%) 14.2%,
+    hsl(169.88, 12.61%, 57.95%) 26.3%,
+    hsl(169.76, 12.19%, 61.23%) 36.4%,
+    hsl(169.64, 11.74%, 65.2%) 44.9%,
+    hsl(169.53, 11.3%, 69.56%) 51.9%,
+    hsl(169.44, 10.9%, 74.08%) 57.8%,
+    hsl(169.36, 10.55%, 78.56%) 62.8%,
+    hsl(169.29, 10.24%, 82.88%) 67.1%,
+    hsl(169.24, 9.99%, 86.9%) 71%,
+    hsl(169.2, 9.77%, 90.54%) 74.7%,
+    hsl(169.16, 9.6%, 93.7%) 78.6%,
+    hsl(169.14, 9.47%, 96.32%) 82.8%,
+    hsl(169.12, 9.37%, 98.3%) 87.6%,
+    hsl(169.11, 9.31%, 99.56%) 93.2%,
+    hsl(0, 0%, 100%) 100%
+    );
+  color: #000;
+  padding: 1px 20px 100px 10px;
   font-family: "Ubuntu", sans-serif;
   text-align: right;
+  font-size: 17px;
+}
+
+.bottomheader {
+  background-image: linear-gradient(
+    to top,
+    hsl(170, 13.04%, 54.9%) 0%,
+    hsl(169.97, 12.92%, 55.72%) 14.2%,
+    hsl(169.88, 12.61%, 57.95%) 26.3%,
+    hsl(169.76, 12.19%, 61.23%) 36.4%,
+    hsl(169.64, 11.74%, 65.2%) 44.9%,
+    hsl(169.53, 11.3%, 69.56%) 51.9%,
+    hsl(169.44, 10.9%, 74.08%) 57.8%,
+    hsl(169.36, 10.55%, 78.56%) 62.8%,
+    hsl(169.29, 10.24%, 82.88%) 67.1%,
+    hsl(169.24, 9.99%, 86.9%) 71%,
+    hsl(169.2, 9.77%, 90.54%) 74.7%,
+    hsl(169.16, 9.6%, 93.7%) 78.6%,
+    hsl(169.14, 9.47%, 96.32%) 82.8%,
+    hsl(169.12, 9.37%, 98.3%) 87.6%,
+    hsl(169.11, 9.31%, 99.56%) 93.2%,
+    hsl(0, 0%, 100%) 100%
+    );
+    padding: 10px;
+}
+
+.contact {
+  background-color: #fff;
+  color: #000;
+  padding: 1px 20px 1px 20px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: right;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.blogirunko {
+  padding: 0px 20px 1px 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
 }
 
 .yhteystiedot {
-  background-color: #000;
-  color: #FFFFFF;
-  padding: 20px 20px 20px 50px;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 20px;
+  font-family: "Jersey 10", sans-serif;
+  background-color: #fff;
+  color: #000;
+  padding: none;
+  text-align: right;
+  text-decoration: none;
+  font-size: 40px;
+  align-items: center;
 }
 
-a:link {
-  color: inherit;
-}
-
-a:visited {
-  color: #FFFFFF;
+.girl {
+  float: right;
+  width: 400px;
+  height: 400px;
+  padding-top: 30px;
 }
