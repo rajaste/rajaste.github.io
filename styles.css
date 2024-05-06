@@ -50,7 +50,8 @@ li a:hover {
 }
 
 .header {
-  width: 100%;
+  width: 90%;
+  align-items: center;
 }
 
 .ylempi {
