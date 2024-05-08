@@ -58,6 +58,7 @@ li a:hover {
   padding: 10px 10px 1px 20px;
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
+  font-size: 17px;
   color: #000;
   background-image: linear-gradient(
     to top,
@@ -78,7 +79,6 @@ li a:hover {
     hsl(169.11, 9.31%, 99.56%) 93.2%,
     hsl(0, 0%, 100%) 100%
     );
-    font-size: 17px;
 }
 
 .alempi {
@@ -105,7 +105,7 @@ li a:hover {
   padding: 1px 20px 100px 10px;
   font-family: "Ubuntu", sans-serif;
   text-align: right;
-  font-size: 30px;
+  font-size: 17px;
 }
 
 .bottomheader {
