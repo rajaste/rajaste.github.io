@@ -161,7 +161,7 @@ a {
   background-color: #fff;
   color: #000;
   padding: none;
-  float: left;
+  float: right;
   text-decoration: none;
   font-size: 40px;
 }
@@ -170,7 +170,5 @@ a {
   width: 400px;
   height: 400px;
   padding: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
 }
