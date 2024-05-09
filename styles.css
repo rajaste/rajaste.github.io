@@ -161,13 +161,12 @@ a {
   background-color: #fff;
   color: #000;
   padding: none;
-  float: right;
   text-decoration: none;
   font-size: 40px;
 }
 
 .girl {
-  display: inline-block;
+  display: block;
   width: 400px;
   height: 400px;
   padding: none;
