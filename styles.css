@@ -136,7 +136,7 @@ li a:hover {
   color: #000;
   padding: 1px 20px 1px 20px;
   font-family: "Ubuntu", sans-serif;
-  text-align: center;
+  text-align: ;
   font-size: 17px;
 }
 
@@ -161,7 +161,7 @@ a {
   background-color: #fff;
   color: #000;
   padding: none;
-  text-align: right;
+  text-align: center;
   text-decoration: none;
   font-size: 40px;
   align-items: center;
