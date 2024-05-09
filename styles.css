@@ -171,5 +171,6 @@ a {
   display: inline-block;
   align-items: center;
   width: fixed;
+  height: 50px;
   padding-top: 30px;
 }
