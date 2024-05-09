@@ -170,7 +170,6 @@ a {
 .girl {
   display: inline-block;
   align-items: center;
-  width: 400px;
-  height: 400px;
+  width: fixed;
   padding-top: 30px;
 }
