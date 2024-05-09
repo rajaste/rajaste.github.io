@@ -161,10 +161,9 @@ a {
   background-color: #fff;
   color: #000;
   padding: none;
-  text-align: center;
+  float: left;
   text-decoration: none;
   font-size: 40px;
-  align-items: center;
 }
 
 .girl {
