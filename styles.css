@@ -168,7 +168,7 @@ a {
 }
 
 .girl {
-  float: center;
+  align-items: center;
   width: 400px;
   height: 400px;
   padding-top: 30px;
