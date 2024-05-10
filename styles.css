@@ -167,8 +167,8 @@ a {
 }
 
 .girl {
-  width: 400px;
   height: 400px;
   padding: none;
   float: left;
+  width: 50%;
 }
