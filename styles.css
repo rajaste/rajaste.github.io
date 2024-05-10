@@ -163,12 +163,6 @@ a {
   padding: 1px 5px 1px 5px;
   text-decoration: none;
   font-size: 40px;
-  text-align: center;
-}
-
-.girl {
-  display: block;
-  width: 400px;
-  height: 400px;
-  padding: none;
+  float: left;
+  text-align: left;
 }
