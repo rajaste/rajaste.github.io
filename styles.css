@@ -54,6 +54,14 @@ li a:hover {
   align-items: center;
 }
 
+.blob1 {
+  float: left;
+}
+
+.blob2 {
+  float: right;
+}
+
 .ylempi {
   padding: 10px 10px 1px 20px;
   font-family: "Ubuntu", sans-serif;
