@@ -50,20 +50,20 @@ li a:hover {
 }
 
 .header {
-  width: 33%;
+  width: 90%;
   align-items: center;
 }
 
 .blob1 {
   float: left;
-  width: 30px;
-  height: 30px;
+  width: 100px;
+  height: 90px;
 }
 
 .blob2 {
   float: right;
-  width: 30px;
-  height: 30px;
+  width: 100px;
+  height: 90px;
 }
 
 .ylempi {
