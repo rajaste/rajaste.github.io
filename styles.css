@@ -56,10 +56,14 @@ li a:hover {
 
 .blob1 {
   float: left;
+  width: 30px;
+  height: 30px;
 }
 
 .blob2 {
   float: right;
+  width: 30px;
+  height: 30px;
 }
 
 .ylempi {
