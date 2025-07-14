@@ -6,6 +6,7 @@ ul {
     font-family: "Quicksand", sans-serif;
     font-weight: 200;
     font-style: normal;
+    min-width: auto;
     padding: 20px 0px 20px 0px;
   }
   
@@ -13,6 +14,7 @@ ul {
     text-align: center;
     display: inline;
     font-size: 15px;
+    text-wrap: nowrap;
   }
   
   li:last-child {
@@ -47,11 +49,6 @@ ul {
     font-size: 17px;
   }
   
-  h1 {
-    font-size: 30px;
-    font-family: "Roboto Condensed", sans-serif;
-  }
-  
   a {
     display: inline-block;
     color: #000;
@@ -69,14 +66,18 @@ ul {
   }
   
   .mainotsikko {
-    padding: 10px 20px 20px 25px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px 20px 20px 25px;
     color: #b15f01;
     font-family: "Roboto Condensed", sans-serif;
     text-align: left;
   }
 
   .otsikko2 {
-    padding: 20px 0px 0px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px 20px 20px 25px;
     color: #b15f01;
     font-family: "Roboto Condensed", sans-serif;
     text-align: right;
@@ -84,23 +85,27 @@ ul {
 
 
   .ylempi {
-    padding: 0px 20px 0px 0px;
+    padding: 0px 20px 0px 25px;
     font-family: "Quicksand", sans-serif;
+    text-wrap: wrap;
+    font-size: 20px;
   }
 
   .alempi {
+    font-size: 20px;
     text-align: right;
-    padding: 0px 0px 15px 20px;
-    font-family: "Quicksand", sand-serif;
-  }
-  .galleria-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+    padding: 0px 25px 15px 20px;
+    font-family: "Quicksand", sans-serif;
   }
 
+  .galleria-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    }
+  
   .galleria {
-    margin: 15px;
+    margin: 30px;
     border: none;
     width: 200px;
     display: flex;
@@ -108,16 +113,12 @@ ul {
     font-size: 20px;
     padding-bottom: 17px;
     align-items: center;
-  }
+   }
 
-  .galleria:hover {
-    border: 1px solid #b15f01;
-    margin: 14px;
-    box-shadow: 0px 3px 6px rgba (0,0,0,0.2);
-  }
-
-  desc {
+  .desc {
+    font-family: "Quicksand", sans-serif;
     text-align: center;
     width: 100%;
     font-size: 20px;
+    padding: 8px 0px 50px 0px;
   }
