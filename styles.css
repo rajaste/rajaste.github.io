@@ -1,179 +1,121 @@
 ul {
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 20px;
-  background-color: #FFFFFF;
-  font-family: "Ubuntu", sans-serif;
-}
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    background-color: #d3baa3;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    min-width: auto;
+    padding: 20px 0px 20px 0px;
+  }
+  
+  li {
+    text-align: center;
+    display: inline;
+    font-size: 15px;
+    text-wrap: nowrap;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li a {
+    display: inline;
+    color: #b15f01;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    color: #ffffff;
+  }
+  
+  .header {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+  }
 
-li {
-  text-align: center;
-  display: inline;
-  padding: 20px;
-  font-size: 18px;
-}
+  .contact {
+    background-color: #fff;
+    color: #000;
+    padding: 1px 20px 1px 20px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .yhteystiedot {
+    font-family: "Quicksand", sans-serif;
+    background-color: #fff;
+    color: #000;
+    padding: 1px 5px 1px 5px;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .mainotsikko {
+    padding: 10px 20px 20px 25px;
+    color: #b15f01;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+  }
 
-li:last-child {
-  border-bottom: none;
-}
+  .otsikko2 {
+    padding: 20px 0px 0px 20px;
+    color: #b15f01;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: right;
+  }
 
-li a {
-  display: inline;
-  color: #000;
-  padding: 20px;
-  text-decoration: none;
-  font-weight: bold;
-}
 
-li a:hover {
-  background-image: linear-gradient(
-    to top,
-    hsl(170, 13.04%, 54.9%) 0%,
-    hsl(169.97, 12.92%, 55.72%) 14.2%,
-    hsl(169.88, 12.61%, 57.95%) 26.3%,
-    hsl(169.76, 12.19%, 61.23%) 36.4%,
-    hsl(169.64, 11.74%, 65.2%) 44.9%,
-    hsl(169.53, 11.3%, 69.56%) 51.9%,
-    hsl(169.44, 10.9%, 74.08%) 57.8%,
-    hsl(169.36, 10.55%, 78.56%) 62.8%,
-    hsl(169.29, 10.24%, 82.88%) 67.1%,
-    hsl(169.24, 9.99%, 86.9%) 71%,
-    hsl(169.2, 9.77%, 90.54%) 74.7%,
-    hsl(169.16, 9.6%, 93.7%) 78.6%,
-    hsl(169.14, 9.47%, 96.32%) 82.8%,
-    hsl(169.12, 9.37%, 98.3%) 87.6%,
-    hsl(169.11, 9.31%, 99.56%) 93.2%,
-    hsl(0, 0%, 100%) 100%
-    );
-  color: #ffffff;
-}
+  .ylempi {
+    padding: 0px 20px 0px 0px;
+    font-family: "Quicksand", sans-serif;
+    text-wrap: wrap;
+  }
 
-.header {
-  width: 80%;
-  align-items: center;
-}
+  .alempi {
+    text-align: right;
+    padding: 0px 0px 15px 20px;
+    font-family: "Quicksand", sand-serif;
+  }
 
-.blob1 {
-  float: left;
-  width: 100px;
-  height: 80px;
-}
+  .galleria {
+    margin: 15px;
+    border: none;
+    float: left;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    padding-bottom: 17px;
+  }
 
-.blob2 {
-  float: right;
-  width: 100px;
-  height: 80px;
-}
+  .galleria:hover {
+    border: 1px solid #b15f01;
+    margin: 14px;
+    box-shadow: 0px 3px;
+  }
 
-.ylempi {
-  padding: 10px 10px 1px 20px;
-  font-family: "Ubuntu", sans-serif;
-  font-style: normal;
-  font-size: 20px;
-  color: #000;
-  background-image: linear-gradient(
-    to top,
-    hsl(170, 13.04%, 54.9%) 0%,
-    hsl(169.97, 12.92%, 55.72%) 14.2%,
-    hsl(169.88, 12.61%, 57.95%) 26.3%,
-    hsl(169.76, 12.19%, 61.23%) 36.4%,
-    hsl(169.64, 11.74%, 65.2%) 44.9%,
-    hsl(169.53, 11.3%, 69.56%) 51.9%,
-    hsl(169.44, 10.9%, 74.08%) 57.8%,
-    hsl(169.36, 10.55%, 78.56%) 62.8%,
-    hsl(169.29, 10.24%, 82.88%) 67.1%,
-    hsl(169.24, 9.99%, 86.9%) 71%,
-    hsl(169.2, 9.77%, 90.54%) 74.7%,
-    hsl(169.16, 9.6%, 93.7%) 78.6%,
-    hsl(169.14, 9.47%, 96.32%) 82.8%,
-    hsl(169.12, 9.37%, 98.3%) 87.6%,
-    hsl(169.11, 9.31%, 99.56%) 93.2%,
-    hsl(0, 0%, 100%) 100%
-    );
-}
-
-.alempi {
-  background-image: linear-gradient(
-    to bottom,
-    hsl(170, 13.04%, 54.9%) 0%,
-    hsl(169.97, 12.92%, 55.72%) 14.2%,
-    hsl(169.88, 12.61%, 57.95%) 26.3%,
-    hsl(169.76, 12.19%, 61.23%) 36.4%,
-    hsl(169.64, 11.74%, 65.2%) 44.9%,
-    hsl(169.53, 11.3%, 69.56%) 51.9%,
-    hsl(169.44, 10.9%, 74.08%) 57.8%,
-    hsl(169.36, 10.55%, 78.56%) 62.8%,
-    hsl(169.29, 10.24%, 82.88%) 67.1%,
-    hsl(169.24, 9.99%, 86.9%) 71%,
-    hsl(169.2, 9.77%, 90.54%) 74.7%,
-    hsl(169.16, 9.6%, 93.7%) 78.6%,
-    hsl(169.14, 9.47%, 96.32%) 82.8%,
-    hsl(169.12, 9.37%, 98.3%) 87.6%,
-    hsl(169.11, 9.31%, 99.56%) 93.2%,
-    hsl(0, 0%, 100%) 100%
-    );
-  color: #000;
-  padding: 1px 20px 100px 10px;
-  font-family: "Ubuntu", sans-serif;
-  text-align: right;
-  font-size: 17px;
-}
-
-.bottomheader {
-  background-image: linear-gradient(
-    to top,
-    hsl(170, 13.04%, 54.9%) 0%,
-    hsl(169.97, 12.92%, 55.72%) 14.2%,
-    hsl(169.88, 12.61%, 57.95%) 26.3%,
-    hsl(169.76, 12.19%, 61.23%) 36.4%,
-    hsl(169.64, 11.74%, 65.2%) 44.9%,
-    hsl(169.53, 11.3%, 69.56%) 51.9%,
-    hsl(169.44, 10.9%, 74.08%) 57.8%,
-    hsl(169.36, 10.55%, 78.56%) 62.8%,
-    hsl(169.29, 10.24%, 82.88%) 67.1%,
-    hsl(169.24, 9.99%, 86.9%) 71%,
-    hsl(169.2, 9.77%, 90.54%) 74.7%,
-    hsl(169.16, 9.6%, 93.7%) 78.6%,
-    hsl(169.14, 9.47%, 96.32%) 82.8%,
-    hsl(169.12, 9.37%, 98.3%) 87.6%,
-    hsl(169.11, 9.31%, 99.56%) 93.2%,
-    hsl(0, 0%, 100%) 100%
-    );
-    padding: 10px;
-}
-
-.contact {
-  background-color: #fff;
-  color: #000;
-  padding: 1px 20px 1px 20px;
-  font-family: "Ubuntu", sans-serif;
-  text-align: center;
-  font-size: 17px;
-}
-
-h1 {
-  font-size: 30px;
-}
-
-a {
-  display: inline-block;
-  color: #000;
-  text-decoration: none;
-}
-
-.blogirunko {
-  padding: 0px 20px 1px 20px;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 17px;
-}
-
-.yhteystiedot {
-  font-family: "Jersey 10", sans-serif;
-  background-color: #fff;
-  color: #000;
-  padding: 1px 5px 1px 5px;
-  text-decoration: none;
-  font-size: 40px;
-  text-align: center;
-}
+  desc {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+  }
