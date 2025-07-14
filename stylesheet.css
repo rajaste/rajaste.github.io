@@ -14,7 +14,6 @@ ul {
     text-align: center;
     display: inline;
     font-size: 15px;
-    text-wrap: nowrap;
   }
   
   li:last-child {
@@ -87,7 +86,6 @@ ul {
   .ylempi {
     padding: 0px 20px 0px 0px;
     font-family: "Quicksand", sans-serif;
-    text-wrap: wrap;
   }
 
   .alempi {
