@@ -92,11 +92,15 @@ ul {
     padding: 0px 0px 15px 20px;
     font-family: "Quicksand", sand-serif;
   }
+  .galleria-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
 
   .galleria {
     margin: 15px;
     border: none;
-    float: left;
     width: 200px;
     display: flex;
     flex-direction: column;
